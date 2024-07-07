@@ -1,0 +1,25 @@
+@use '../components/variables'
+
+
+body
+    background-image: url('../img/2713.jpg') // Caminho relativo à pasta onde está o arquivo Sass
+    background-size: cover
+    background-repeat: no-repeat
+    background-attachment: fixed
+    margin: 0
+
+#portifolio
+    display: flex
+    flex-wrap: wrap
+    padding: 3rem
+    gap: 3rem
+    background-color: variables.$body-background
+
+    h1
+        width: 100%
+        font-size: 5rem
+        margin-bottom: 4rem
+        background: linear-gradient(to bottom, rgba(222, 107, 72, 1) 0%, rgba(80, 43, 15, 1) 100%)
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+        text-align: center
